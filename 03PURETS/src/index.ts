@@ -12,7 +12,7 @@
 
 class User {
 
-    private _courseCount = 1
+    protected _courseCount = 1
 
     readonly city: string = "Rome"
     constructor(
@@ -42,9 +42,22 @@ class User {
     }
 }
 
+class SubUser extends User {
+    isFamily: boolean = true
+    changeCourseCount() {
+        this._courseCount = 4   
+    }
+}
+
 
 const long = new User("long@mail.com", "Long")
 
 // long.city = "London"
 
 // long.deleteToken()
+
+/*
+- Protected có thể sử dụng trong cùng 1 class hoặc class kế thừa nó
+- Private chỉ được sử dụng trong cùng 1 class
+- Public được sử dụng ở cả trong và ngoài class
+ */
