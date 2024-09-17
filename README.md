@@ -11,6 +11,14 @@ Link : https://www.youtube.com/watch?v=30LWjhZzg50
 - Em học được thêm về Tuples, viết kiểu dữ liệu vào trong [] thay vì sử dụng () bên ngoài
 - Em được ôn lại về enum
 - Em học được cách setup TS vào project
+- Em được ôn lại về OOP (interface, abtract)
+- Em được ôn lại các kiểu dử liệu như public, private, protected
+- Em được ôn lại về extends và implements :
+  - extends là kế thừa 1 class khác hoặc từ 1 interface, cho phép sử dụng các thuộc tính và
+    phương thức mà nó kế thừa từ class hoặc interface cha.
+  - implements là triển khai 1 hoặc nhiều interface và bắt buộc phải thực hiện tất cả các phương thức và thuộc tính được định nghĩa
+    trong interface.
+- Em được học thêm về các cú pháp đơn giản của Generics Type Variable
 
 Question:
 function createdCourse(): {name: string, price: number}{
@@ -18,3 +26,15 @@ return {name: "typescript", price: 123}
 }
 
 - Em không hiểu đoạn code này và tại sao lại viết như vậy
+
+* 3:26:00
+
+- Phần Interface đầu em có hiểu 1 chút, nhưng ở khúc cuối này em chưa hiểu lắm
+
+* 4:08:00 - 4:17:30
+
+- Em chưa hiểu lắm về phần Narrowing
+
+\*Document attention:
+
+- https://www.typescriptlang.org/docs/handbook
