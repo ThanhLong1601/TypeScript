@@ -19,22 +19,22 @@ Link : https://www.youtube.com/watch?v=30LWjhZzg50
   - implements là triển khai 1 hoặc nhiều interface và bắt buộc phải thực hiện tất cả các phương thức và thuộc tính được định nghĩa
     trong interface.
 - Em được học thêm về các cú pháp đơn giản của Generics Type Variable
+- Em được biết thêm về cách sử dụng cú pháp "in" và "instanceof"
 
 Question:
-function createdCourse(): {name: string, price: number}{
-return {name: "typescript", price: 123}
-}
 
-- Em không hiểu đoạn code này và tại sao lại viết như vậy
+- 3:26:00
 
-* 3:26:00
+* Phần Interface đầu em có hiểu 1 chút, nhưng ở khúc cuối này em chưa hiểu lắm
 
-- Phần Interface đầu em có hiểu 1 chút, nhưng ở khúc cuối này em chưa hiểu lắm
+- 4:06:41
 
-* 4:08:00 - 4:17:30
+* Em chưa hiểu lắm về phần Generic Classes
 
-- Em chưa hiểu lắm về phần Narrowing
+- 4:08:00 - 4:17:30
 
-\*Document attention:
+* Em chưa hiểu lắm về phần Narrowing
+
+///// Document attention:
 
 - https://www.typescriptlang.org/docs/handbook
